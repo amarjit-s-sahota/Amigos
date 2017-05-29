@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C5ABF1E9C31D8245B157052 /* Pods_Amigos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC40299329356F1EEA7555A1 /* Pods_Amigos.framework */; };
 		EF55DF651EDCCDFE003F3BC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF55DF641EDCCDFE003F3BC4 /* AppDelegate.swift */; };
 		EF55DF671EDCCDFE003F3BC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF55DF661EDCCDFE003F3BC4 /* ViewController.swift */; };
 		EF55DF6A1EDCCDFE003F3BC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF55DF681EDCCDFE003F3BC4 /* Main.storyboard */; };
 		EF55DF6C1EDCCDFE003F3BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF55DF6B1EDCCDFE003F3BC4 /* Assets.xcassets */; };
 		EF55DF6F1EDCCDFE003F3BC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF55DF6D1EDCCDFE003F3BC4 /* LaunchScreen.storyboard */; };
+		EF55DF771EDCDBBE003F3BC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF55DF761EDCDBBE003F3BC4 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD4C420DC2C87AA5EA5CD8CA /* Pods-Amigos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amigos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Amigos/Pods-Amigos.debug.xcconfig"; sourceTree = "<group>"; };
+		EC40299329356F1EEA7555A1 /* Pods_Amigos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amigos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF55DF611EDCCDFE003F3BC4 /* Amigos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amigos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF55DF641EDCCDFE003F3BC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF55DF661EDCCDFE003F3BC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		EF55DF6B1EDCCDFE003F3BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF55DF6E1EDCCDFE003F3BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF55DF701EDCCDFE003F3BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF55DF761EDCDBBE003F3BC4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FB6B5177904E40546B9B853B /* Pods-Amigos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amigos.release.xcconfig"; path = "Pods/Target Support Files/Pods-Amigos/Pods-Amigos.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C5ABF1E9C31D8245B157052 /* Pods_Amigos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3971586E43C0E46318FDB34A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD4C420DC2C87AA5EA5CD8CA /* Pods-Amigos.debug.xcconfig */,
+				FB6B5177904E40546B9B853B /* Pods-Amigos.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		561A5C74794F1B14CC6F3A28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC40299329356F1EEA7555A1 /* Pods_Amigos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EF55DF581EDCCDFE003F3BC4 = {
 			isa = PBXGroup;
 			children = (
 				EF55DF631EDCCDFE003F3BC4 /* Amigos */,
 				EF55DF621EDCCDFE003F3BC4 /* Products */,
+				3971586E43C0E46318FDB34A /* Pods */,
+				561A5C74794F1B14CC6F3A28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +86,7 @@
 				EF55DF6B1EDCCDFE003F3BC4 /* Assets.xcassets */,
 				EF55DF6D1EDCCDFE003F3BC4 /* LaunchScreen.storyboard */,
 				EF55DF701EDCCDFE003F3BC4 /* Info.plist */,
+				EF55DF761EDCDBBE003F3BC4 /* GoogleService-Info.plist */,
 			);
 			path = Amigos;
 			sourceTree = "<group>";
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF55DF731EDCCDFE003F3BC4 /* Build configuration list for PBXNativeTarget "Amigos" */;
 			buildPhases = (
+				0A7697F6E5C8F3B3E1559701 /* [CP] Check Pods Manifest.lock */,
 				EF55DF5D1EDCCDFE003F3BC4 /* Sources */,
 				EF55DF5E1EDCCDFE003F3BC4 /* Frameworks */,
 				EF55DF5F1EDCCDFE003F3BC4 /* Resources */,
+				37338E2690879E46103CF5FF /* [CP] Embed Pods Frameworks */,
+				732D5C6E6F4E818E37978CC3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,12 +155,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF55DF6F1EDCCDFE003F3BC4 /* LaunchScreen.storyboard in Resources */,
+				EF55DF771EDCDBBE003F3BC4 /* GoogleService-Info.plist in Resources */,
 				EF55DF6C1EDCCDFE003F3BC4 /* Assets.xcassets in Resources */,
 				EF55DF6A1EDCCDFE003F3BC4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A7697F6E5C8F3B3E1559701 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		37338E2690879E46103CF5FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Amigos/Pods-Amigos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		732D5C6E6F4E818E37978CC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Amigos/Pods-Amigos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EF55DF5D1EDCCDFE003F3BC4 /* Sources */ = {
@@ -257,6 +336,7 @@
 		};
 		EF55DF741EDCCDFE003F3BC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD4C420DC2C87AA5EA5CD8CA /* Pods-Amigos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q2QEY8CZW7;
@@ -270,6 +350,7 @@
 		};
 		EF55DF751EDCCDFE003F3BC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB6B5177904E40546B9B853B /* Pods-Amigos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q2QEY8CZW7;
@@ -300,6 +381,7 @@
 				EF55DF751EDCCDFE003F3BC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
