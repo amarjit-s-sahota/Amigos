@@ -14,6 +14,8 @@
 		EF55DF6C1EDCCDFE003F3BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF55DF6B1EDCCDFE003F3BC4 /* Assets.xcassets */; };
 		EF55DF6F1EDCCDFE003F3BC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF55DF6D1EDCCDFE003F3BC4 /* LaunchScreen.storyboard */; };
 		EF55DF771EDCDBBE003F3BC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF55DF761EDCDBBE003F3BC4 /* GoogleService-Info.plist */; };
+		EF55DF791EDD1657003F3BC4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF55DF781EDD1657003F3BC4 /* SignUpViewController.swift */; };
+		EF55DF7B1EE393ED003F3BC4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF55DF7A1EE393ED003F3BC4 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		EF55DF6E1EDCCDFE003F3BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF55DF701EDCCDFE003F3BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF55DF761EDCDBBE003F3BC4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EF55DF781EDD1657003F3BC4 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EF55DF7A1EE393ED003F3BC4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FB6B5177904E40546B9B853B /* Pods-Amigos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amigos.release.xcconfig"; path = "Pods/Target Support Files/Pods-Amigos/Pods-Amigos.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +86,8 @@
 			children = (
 				EF55DF641EDCCDFE003F3BC4 /* AppDelegate.swift */,
 				EF55DF661EDCCDFE003F3BC4 /* ViewController.swift */,
+				EF55DF781EDD1657003F3BC4 /* SignUpViewController.swift */,
+				EF55DF7A1EE393ED003F3BC4 /* LoginViewController.swift */,
 				EF55DF681EDCCDFE003F3BC4 /* Main.storyboard */,
 				EF55DF6B1EDCCDFE003F3BC4 /* Assets.xcassets */,
 				EF55DF6D1EDCCDFE003F3BC4 /* LaunchScreen.storyboard */,
@@ -216,6 +222,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF55DF7B1EE393ED003F3BC4 /* LoginViewController.swift in Sources */,
+				EF55DF791EDD1657003F3BC4 /* SignUpViewController.swift in Sources */,
 				EF55DF671EDCCDFE003F3BC4 /* ViewController.swift in Sources */,
 				EF55DF651EDCCDFE003F3BC4 /* AppDelegate.swift in Sources */,
 			);
