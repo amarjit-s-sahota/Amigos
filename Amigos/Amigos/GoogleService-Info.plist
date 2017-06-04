@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>383322198531-i2nfrf1ibmqjh7s6i3v39nmodrrr5l5b.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.383322198531-i2nfrf1ibmqjh7s6i3v39nmodrrr5l5b</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAgOA-fNsaoIjezZIRbk2lv8tnXU7Q-Ixo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>383322198531</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.amarjit.singh.Amigos</string>
+	<key>PROJECT_ID</key>
+	<string>amigos-947c3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>amigos-947c3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:383322198531:ios:6f9af8655ef7f8bf</string>
+	<key>DATABASE_URL</key>
+	<string>https://amigos-947c3.firebaseio.com</string>
+</dict>
+</plist>
